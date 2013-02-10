@@ -1,6 +1,6 @@
 <?php echo "Hi There! This is Hands On 959";
 
-mysql_connect("localhost", "admin", "Youtube@libra17");
+$con = mysql_connect("localhost", "admin", "Youtube@libra17");
 mysql_select_db("handson959", $con);
 
 $query= "SELECT NAME FROM USER WHERE USERD = 102";
