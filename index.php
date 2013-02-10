@@ -1,6 +1,6 @@
 <?php echo "Hi There! This is Hands On 959";
 
-$con = mysql_connect("localhost", "admin", "Youtube@libra17");
+$con = mysql_connect("instance38538.db.xeround.com:6511", "admin", "Youtube@libra17");
 if (!$con) {
 		die('Could not connect: ' . mysql_error());
 	}
