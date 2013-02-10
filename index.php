@@ -1,4 +1,4 @@
-<?php echo "Hi There! This is Hands On 959";
+<?php echo "Hi There! This is  On 959";
 
 $con = mysql_connect("instance38538.db.xeround.com:6511", "handson959", "Youtube@libra17");
 mysql_select_db("handson959", $con);
