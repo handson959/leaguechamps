@@ -9,8 +9,13 @@ if (!$db_select) {
 		die('Database selection failed: ' . mysql_error());
 	}
 	
-$query= "SELECT NAME FROM USER WHERE USERD = 102";
+$query= "SELECT NAME FROM USER WHERE USERID = 102";
 $getUser_query = mysql_query($query);
+
+if (!$getUser_query) {
+			die('Database Query failed: ' . mysql_error());
+	}
+
 $user = mysql_fetch_array($getUser_query);
 
 echo $user['NAME'];	
