@@ -1,0 +1,8 @@
+</br>
+							<label for="rcb_radio"> <img class="logo" src="rcb.png" alt="RCB"> </label>
+							<label for="csk_radio"> <img class="logo" src="csk.png" alt="CSK"> </label>
+							<input type="radio" id="rcb_radio" name="team" value="RCB" style="display: none">
+							<input type="radio" id="csk_radio" name="team" value="CSK" style="display: none">
+</br></br>
+
+

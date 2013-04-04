@@ -1,0 +1,112 @@
+@import "general.css";
+
+#_MAIN_CONTAINER{
+width: 1024px; /*Width of main container*/
+height: 2000px;
+}
+
+#bg_contentwrapper{
+float: left;
+width: 1024px;
+background-color: #F0F0F5;
+}
+
+#_TOP_SECTION{
+position:fixed;
+width:2024px;
+height: 90px; /*Height of top section*/
+margin-top: -10px;
+margin-left: 0;
+border-style:solid;
+border-width:0px 0px 2px 0px;
+border-color:rgb(255,255,255);
+padding:0px 0px 3px 0px;
+text-align:center;
+background-color: rgb(30,30,30);
+color:grey;
+z-index:100;
+background: #45484d;
+
+background: linear-gradient(top, #45484d 0%,#000000 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
+}
+
+#_TOP_SECTION h1{
+font-family:"Helvetica";
+font-size:40px;
+letter-spacing:-2px;
+text-align:left;
+color:#E8E8F1;
+margin-top:50px;
+margin-left:3px;
+text-shadow: 0px 4px 0px #C8D0E7;
+font-weight:bold; 
+}
+
+#sign_in_up {
+margin-top:2px;
+margin-left:0px;
+width:400px;
+}
+
+form.signIN_form, form.signUP_form {
+margin-top:2px;
+margin-left:00px;
+width:400px;
+}
+
+p#validationError_user, p#validationError_pass, p#validationError_fname, p#validationError_lname, p#validationError_new_user, p#validationError_new_pass {
+font-size:12px;
+color:red;
+width:500px;
+}
+
+#_CENTER_SECTION{
+margin: 100px 200px 0 200px; /*Margins for content column. Should be "(HeightOfTopSection RightColumnWidth 0 LeftColumnWidth*/
+height: 1000px;
+width: 1024px; /*Width of center column*/
+}
+
+#_CENTER_SECTION h2
+{
+font-family:"Monotype Corsiva",sans-serif;
+font-size:24px;
+color:rgb(0,0,0);
+text-align:center;
+}
+
+#home_team_radio, #away_team_radio {
+display:inline;
+}
+
+#_FOOTER_SECTION{
+width: 2024px;
+position:absolute;
+bottom:0px;
+height:50px;
+position:fixed;
+border-style:solid;
+border-width:2px 0px 2px 0px;
+border-color:rgb(255,255,255);
+padding: 0px 0 2px 0;
+margin:0px;
+text-align:center;
+background-color: rgb(30,30,30);
+color:grey;
+background: #45484d;
+
+background: linear-gradient(top, #45484d 0%,#000000 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
+}
+
+input[name="previousMatchButton"], input[name="nextMatchButton"] {
+    width:150px;
+}
+input[name="currentMatchButton"] {
+    width:300px;
+}
+
+#home_photo, #away_photo{
+min-height:180px;
+max-height:180px;
+}
